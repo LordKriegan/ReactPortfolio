@@ -7,6 +7,7 @@ import Sidebar from './components/Sidebar/Sidebar'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
+import Err404Page from './pages/Err404Page'
 
 import './App.css';
 
@@ -23,6 +24,7 @@ class App extends Component {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/portfolio" component={Portfolio} />
                 <Route exact path="/contact" component={Contact} />
+                <Route component={Err404Page} />
               </Switch>
             </Router>
             </div>

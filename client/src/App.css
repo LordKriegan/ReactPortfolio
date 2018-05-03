@@ -43,3 +43,7 @@ body {
 .contactLinkImg:hover {
 	box-shadow: 0 0 3pt 2pt grey;
 }
+
+.err404 {
+  border-radius: 5%;
+}

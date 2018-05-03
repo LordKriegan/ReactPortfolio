@@ -5,7 +5,6 @@ var express = require('express');
 //setup dev environment
 if (process.env.NODE_ENV.trim() === "development"){
     require('dotenv').config(); //grab local copy of env vars
-    dbSyncOptions.force = true;
 }
 
 //setup server
