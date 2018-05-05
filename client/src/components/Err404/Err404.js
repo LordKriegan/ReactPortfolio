@@ -1,6 +1,5 @@
 import React from 'react';
-import Err404Img from './images/starwars404.jpg'
-
+import Err404Img from './images/404.gif';
 class Err404 extends React.Component {
   render() {
     return (

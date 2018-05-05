@@ -1,0 +1,28 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "qamar stationwala portfolio site",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "dotenv": "^5.0.1",
+    "nodemailer": "^4.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devstart": "set NODE_ENV=development && nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordKriegan/ReactPortfolio.git"
+  },
+  "author": "Qamar A. Stationwala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordKriegan/ReactPortfolio/issues"
+  },
+  "homepage": "https://github.com/LordKriegan/ReactPortfolio#readme"
+}

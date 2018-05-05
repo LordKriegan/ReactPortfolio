@@ -18,7 +18,7 @@ class App extends Component {
         <Navbar />
         <div className="container">
           <div className="row">
-            <div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-1">
+            <div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-1 addPadding">
             <Router>
               <Switch>
                 <Route exact path="/" component={Home} />
@@ -28,7 +28,7 @@ class App extends Component {
               </Switch>
             </Router>
             </div>
-            <div className="col-xs-10 col-xs-offset-1 col-md-2 col-md-offset-1">
+            <div className="col-xs-10 col-xs-offset-1 col-md-2 col-md-offset-1 addPadding">
               <Sidebar />
             </div>
           </div>

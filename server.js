@@ -1,21 +1,22 @@
 //dependencies
-var express = require('express');
-// var bodyParser = require('body-parser');
+const express = require('express');
+const bodyParser = require('body-parser');
+const apiRoutes = require('./api/api.js');
 
 //setup dev environment
 if (process.env.NODE_ENV.trim() === "development"){
-    require('dotenv').config(); //grab local copy of env vars
+    require('dotenv').config(); //grab local copy of env var
 }
 
 //setup server
-var port = process.env.PORT || 3000;
-var app = express();
+const port = process.env.PORT || 3001;
+const app = express();
 
-// Sets up the Express app to handle data parsing
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(bodyParser.text());
-// app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+//Sets up the Express app to handle data parsing
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname + '/client/build')));
@@ -24,8 +25,10 @@ if (process.env.NODE_ENV === 'production') {
     });
 }
 
+app.use("/api", apiRoutes);
+
 //start server
-app.listen(port, function() {
+app.listen(port, () => {
      console.log("App listening on PORT " + port);
 });
 
