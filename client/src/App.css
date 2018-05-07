@@ -64,3 +64,12 @@ html, body {
   display: flex;
   flex-direction: column;
 }
+
+.profilePic {
+  padding-right: 10px;
+  border-radius: 10%;
+}
+
+.somePTags {
+  text-indent: 50px;
+}
