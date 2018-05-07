@@ -1,6 +1,7 @@
 //dependencies
 const express = require('express');
 const bodyParser = require('body-parser');
+const path = require('path');
 const apiRoutes = require('./api/api.js');
 
 //setup dev environment
