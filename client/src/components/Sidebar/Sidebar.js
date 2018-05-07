@@ -14,8 +14,7 @@ class Sidebar extends React.Component {
                     <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/qstationwala"><img alt="LinkedIn" className="contactLinkImg" src={LinkedInImg} /></a>
                     <a rel="noopener noreferrer" target="_blank" href="https://www.github.com/lordkriegan"><img alt="Github" className="contactLinkImg" src={GithubImg} /></a>
                     <a rel="noopener noreferrer" target="_blank" href="mailto:qstationwala@gmail.com"><img alt="Email" className="contactLinkImg" src={EmailImg} /></a>
-                    <a rel="noopener noreferrer" target="_blank" className="hidden-md hidden-lg" href="tel:1-714-308-3063"><img alt="Phone" className="contactLinkImg" src={PhoneImg} /></a>
-                    {/* <a rel="noopener noreferrer" target="_blank" className="hidden-xs hidden-sm" href=""><img alt="Phone" className="contactLinkImg" src={PhoneImg} /></a> */}
+                    <a rel="noopener noreferrer" target="_blank" href="tel:1-714-308-3063"><img alt="Phone" className="contactLinkImg" src={PhoneImg} /></a>
                 </div>
             </div>
         );

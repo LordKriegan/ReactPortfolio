@@ -21,6 +21,7 @@ body {
 
 html, body {
   background: #151515;
+  font-size: 1.0025em;
 }
 
 .linkBox {
@@ -28,7 +29,7 @@ html, body {
 	border-width: 5px;
 	border-radius: 25px;
 	border-color: grey;
-	padding: 15px;
+  padding: 15px;
 }
 
 .contactLinks {
@@ -49,9 +50,17 @@ html, body {
 }
 
 .err404 {
-  border-radius: 5%;
+  font-family: "Impact, Charcoal, sans-serif";
+}
+.err404 > h1 {
+  font-weight: bold;
 }
 
 .addPadding {
   padding-bottom: 10px;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
 }

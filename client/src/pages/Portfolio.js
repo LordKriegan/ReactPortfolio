@@ -1,10 +1,10 @@
 import React from 'react';
-
+import PortfolioPage from '../components/Portfolio'
 class Portfolio extends React.Component {
   render() {
     return (
       <div>
-        <p>Portfolio Page</p>
+        <PortfolioPage />
       </div>
     );
   }
