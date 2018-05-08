@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioPage from '../components/Portfolio'
+import PortfolioPage from '../components/Portfolio/Portfolio'
 class Portfolio extends React.Component {
   render() {
     return (

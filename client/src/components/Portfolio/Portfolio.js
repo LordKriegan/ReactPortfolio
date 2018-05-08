@@ -1,6 +1,6 @@
 import React from 'react'
-import projects from './projects'
-
+import projects from './projects/projectList'
+import Project from './projects/Project'
 class Portfolio extends React.Component {
     state = {
         activeProject: 0
@@ -10,10 +10,6 @@ class Portfolio extends React.Component {
             activeProject: e.target.id
         })
     }
-    getElem = (projects) => {
-        const Elem = projects[this.state.activeProject].component
-        return <Elem />
-    }
     render() {
         return (
             <div>
@@ -21,12 +17,12 @@ class Portfolio extends React.Component {
                     {
                         projects.map((project, i) => {
                             return (
-                                <li role="presentation" key={i} className={this.state.activeProject.toString() === i.toString() ? "active" : ""}><a id={i} onClick={this.selectProject}>{project.name}</a></li>
+                                <li role="presentation" key={i} className={this.state.activeProject.toString() === i.toString() ? "active" : ""}><a id={i} onClick={this.selectProject}>{project.title}</a></li>
                             )
                         })
                     }
                 </ul>
-                {this.getElem(projects)}
+                <Project project={projects[this.state.activeProject]} />
             </div>
         );
     }
