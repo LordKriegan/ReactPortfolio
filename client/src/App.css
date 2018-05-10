@@ -60,11 +60,6 @@ html, body {
   padding-bottom: 10px;
 }
 
-.linkList {
-  display: flex;
-  flex-direction: column;
-}
-
 .profilePic {
   padding-right: 10px;
   border-radius: 10%;
@@ -72,4 +67,10 @@ html, body {
 
 .somePTags {
   text-indent: 50px;
+}
+
+.projectUlLists {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

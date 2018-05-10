@@ -65,7 +65,7 @@ class Project extends React.Component {
                         </div>
                         <div id="techInfo" className="hidden">
                             <h3>Technologies Used</h3>
-                            <ul>
+                            <ul className="projectUlLists">
                                 {this.props.project.tech.map((item) => {
                                     return (
                                         <li>{item}</li>
@@ -75,10 +75,10 @@ class Project extends React.Component {
                         </div>
                         <div id="linksInfo" className="hidden">
                             <h3>Links</h3>
-                            <div className="linkList">
-                                <a target="_blank" href={this.props.project.liveLink}>Live Link <span class="glyphicon glyphicon-new-window"></span></a>
-                                <a target="_blank" href={this.props.project.ghLink}>Github Link <span class="glyphicon glyphicon-new-window"></span></a>
-                            </div>
+                            <ul className="projectUlLists">
+                                <li><a target="_blank" href={this.props.project.liveLink}>Live Link <span class="glyphicon glyphicon-new-window"></span></a></li>
+                                <li><a target="_blank" href={this.props.project.ghLink}>Github Link <span class="glyphicon glyphicon-new-window"></span></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
