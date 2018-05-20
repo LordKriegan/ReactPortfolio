@@ -4,7 +4,7 @@ class AboutMe extends React.Component {
     render() {
         return(
             <div>
-                <h1>About Me</h1>
+                <h1 className="text-center">About Me</h1>
                 <hr />
                 <img className="pull-left profilePic" src={profilePic} alt="Profile Pic" />
                 <div className="somePTags">
