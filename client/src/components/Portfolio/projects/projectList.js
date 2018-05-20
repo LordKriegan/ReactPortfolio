@@ -18,3 +18,16 @@ export default [
         image: require('./images/team3j.png')
     }
 ]
+
+/*
+    empty project
+    {
+        title: "",
+        liveLink: "",
+        ghLink: "",
+        summary: "",
+        tech: [],
+        role: "",
+        image: require('./images/')
+    }
+*/
