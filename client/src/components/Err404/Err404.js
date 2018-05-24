@@ -11,6 +11,7 @@ class Err404 extends React.Component {
         not sure of the original artist of this picture but image was pulled from this site (via google images)
         https://aminoapps.com/c/anime/page/blog/im-so-confused/66tz_uPz7mavEaVoBYGmZNqLP30wdm
         */}
+        <p style={{color: "#151515"}}>I mean.... do you even know de wae?</p>
       </div>
     );
   }

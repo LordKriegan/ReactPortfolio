@@ -19,7 +19,7 @@ class Navbar extends React.Component {
                             <ul className="nav navbar-nav navbar-right text-center">
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/portfolio">Portfolio</a></li>
-                                <li><a href="/assosciates">Assosciates</a></li>
+                                <li><a href="/associates">Associates</a></li>
                                 <li><a href="/contact">Contact Me</a></li>
                             </ul>
                         </div>

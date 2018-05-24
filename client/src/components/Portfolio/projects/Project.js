@@ -33,8 +33,8 @@ class Project extends React.Component {
                 <div className="row">
                     <div className="col-xs-12 text-center">
                         <h1>{this.props.project.title}</h1>
+                        <hr /> {/*this is not showing up for some reason?*/}
                     </div>
-                    <hr />
                 </div>
 
                 <div className="row">

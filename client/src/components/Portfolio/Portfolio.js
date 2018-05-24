@@ -12,7 +12,7 @@ class Portfolio extends React.Component {
     }
     render() {
         return (
-            <div className="text-center">
+            <div className="text-center jumbotron">
                 <ul className="nav nav-pills" role="tablist" style={{display: "inline-block"}}>
                     {
                         projects.map((project, i) => {

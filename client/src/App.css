@@ -21,7 +21,6 @@ body {
 
 html, body {
   background: #151515;
-  font-size: 1.0025em;
 }
 
 .linkBox {
@@ -66,7 +65,7 @@ html, body {
 }
 
 .somePTags {
-  text-indent: 50px;
+  padding-top: 10px;
 }
 
 .projectUlLists {
