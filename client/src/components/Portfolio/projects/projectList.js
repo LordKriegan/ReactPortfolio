@@ -16,6 +16,24 @@ export default [
         tech: ["Node", "Express", "Handlebars", "MySQL", "Sequelize","Bootstrap", "jQuery", "Axios", "Social media APIs (Twitter, Instagram, Facebook)"],
         role: "This was a solo project.",
         image: require('./images/team3j.png')
+    },
+    {
+        title: "Complete Duel Tools",
+        liveLink: "https://expo.io/@lordkriegan/completedueltools",
+        ghLink: "https://www.github.com/lordkriegan/completedueltools",
+        summary: "A mobile app for the trading card game Yu-Gi-Oh! Four main functions of this app are viewing individual cards, building deck lists, calculating life points, and a rules reference page.",
+        tech: ["React", "React Native", "React Navigation", "YgoHub API"],
+        role: "This is currently a solo project. Looking for graphic designer.",
+        image: require('./images/completedueltools.png')
+    },
+    {
+        title: "Autumn Medical Group",
+        liveLink: "autumn-medical-group.herokuapp.com",
+        ghLink: "https://www.github.com/lordkriegan/autumnmedical",
+        summary: "A site for my cousin’s medical practice. Shows various information about practice and staff. Uses Google Maps to generate directions to the office, and Calendly to schedule appointments.",
+        tech: ["Node", "Express", "Axios", "React", "React Google Maps", "React Slick", "Recompose"],
+        role: "",
+        image: require('./images/autumnmedical.png')
     }
 ]
 
