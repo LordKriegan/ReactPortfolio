@@ -25,7 +25,7 @@ class App extends Component {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/portfolio" component={Portfolio} />
                 <Route exact path="/contact" component={Contact} />
-                <Route exact path="/associates" component={Assosciates} />
+                {/* <Route exact path="/associates" component={Assosciates} /> */}
                 <Route component={Err404Page} />
               </Switch>
             </Router>

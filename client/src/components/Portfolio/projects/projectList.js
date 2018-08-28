@@ -32,7 +32,7 @@ export default [
         ghLink: "https://www.github.com/lordkriegan/autumnmedical",
         summary: "A site for my cousin’s medical practice. Shows various information about practice and staff. Uses Google Maps to generate directions to the office, and Calendly to schedule appointments.",
         tech: ["Node", "Express", "Axios", "React", "React Google Maps", "React Slick", "Recompose"],
-        role: "",
+        role: "This is a solo project.",
         image: require('./images/autumnmedical.png')
     }
 ]
